@@ -3,7 +3,7 @@ services:
     image: postgres:11
     hostname: metastore
     environment:
-      POSTGRES_PASSWORD: jupyter
+      POSTGRES_PASSWORD: hongkyu
     ports:
       - "5432:5432"
     volumes:
